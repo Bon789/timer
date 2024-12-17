@@ -1,0 +1,70 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background: url(/asserts/marcelo-quinan-R3pUGn5YiTg-unsplash.jpg) no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+#countdown{
+    text-align: center;
+    gap: 100px;
+    margin-bottom: 200px;
+    
+}
+#countdown-timer{
+    height: 70px;
+}
+#countdwon-labels{
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+}
+#days, #hours,#minutes, #seconds{
+    color: hsl(345, 95%, 68%);
+    width: 30%;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    background: rgba(22, 22, 49, 0.909);
+}
+h1 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px; 
+    color: #ffffff;
+    text-align: center; 
+    margin-bottom: 80px;
+    text-transform: uppercase; 
+    margin-top: 0;
+   
+    }
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin-top: 40px;
+    gap: 30px;
+    font-size: 20px;
+}
+.icon-facebook {
+    color: #3b5998;
+}
+
+.icon-instagram {
+    color: #e1306c; 
+}
+
+.icon-whatsapp {
+    color: #25D366; 
+}
+
+.icon:hover {
+    color: #ffffff;
+}
