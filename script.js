@@ -1,6 +1,6 @@
 function updateCountdown() {
   const now = new Date();
-  const eventDate = new Date('Dec 17 2024, 18:00:00');
+  const eventDate = new Date('Jan 1 2025, 00:00:00');
   const currentTime = now.getTime();
   let remainingTime = eventDate.getTime() - currentTime;
 
